@@ -1,19 +1,20 @@
-body{
-  color: hsla(52, 100%, 20%, 1.0);
-  background-color: #FFDC00;
+body{}
+#todos {
+  width:100%;
+
+  th{
+    border-bottom:2px solid red;
+    padding:10px;
+  }
+  td{
+    padding: 10px;
+  }
 }
 
-#apollo{
-  border: 5px solid hsla(52, 100%, 20%, 1.0);
-  width: 150px;
-  height: 225px;
-}
+#todos{
+  tr.checked{
+    color: #CCCCCC;
+    text-decoration: line-through;
+  }
 
-#title{
-  position: relative;
-  top: -170px;
-  left: 200px;
-  font-family: monospace;
-  letter-spacing: 10px;
-  font-size: 40px;
 }
